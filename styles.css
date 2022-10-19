@@ -1,0 +1,45 @@
+#title{
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+}
+body{
+    padding: 20px;
+    background-color: grey;
+}
+#container{
+    position: relative;
+    background-color: white;
+    box-shadow: 0 0 20px black;
+    width: 900px;
+    height: 520px;
+    margin: auto;
+}
+.bar{
+    fill: rgb(28, 179, 221)
+}
+
+.bar:hover{
+    fill: white;
+}
+
+#tooltip{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(122, 190, 209);
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+#tooltip.hidden{
+    display:none;
+}
+
+#value1, #value2{
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+}
